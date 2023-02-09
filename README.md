@@ -1,6 +1,5 @@
 ### Hi there 👋
 - 🔭 I’m currently working on c++
-- 🌱 I’m currently learning rust
 - 💬 Ask me about DDE
 - 😄 Pronouns: he/him/his
 

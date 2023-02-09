@@ -234,7 +234,7 @@ server {
 }
 ```
 
-## OBS 一些使用
+## OBS 一些资源说明
 
 1. source server 资源管理
 
@@ -247,7 +247,7 @@ server {
     configuration.xml  events     jobs   obs-default-gpg.asc  repos        sources  workers
     ```
     一些路径说明
-    1. configuration.xml OBS-api配置文件，其中配置优先于/etc/sysconfig/obs-server,其中可配置OBS支持的架构等
+    1. configuration.xml OBS-api配置文件，其中配置优先于/etc/sysconfig/obs-server,其中可配置OBS支持的架构等。
     2. projects/
 
         OBS project的配置，meta等信息保存路径。
@@ -286,3 +286,21 @@ server {
     3. jobs/
         
         正在进行构建的job
+
+## 一些问题说明
+
+1. bs_admin
+    
+    OBS backend上提供了`/usr/lib/obs/server/bs_admin`命令行工具，用于管理worker，project等，比如清理被OBS认为是badhost的worker，重新check project等。
+
+2. prjconf
+
+    一个Project的配置存储为prjconf,该prjconf定义了一个package build的_buildenv。
+
+    比如依赖有choice时，使用Prefer决定实际构建使用的Package。
+
+    更多说明请参考
+
+3. configuration.xml
+
+    其中的一些配置会写入到数据库的configurations表中。比如download_url,registration等
