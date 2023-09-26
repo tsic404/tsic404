@@ -23,7 +23,7 @@ k3s 默认采用的 flannel 的 cniVersion 已经升级到 1.0.0 版本，为了
 
 2. kubeconfig
 
-multus 默认读取 kubeconfig 的路径为 `/etc/cni/net.d/multus.d/multus.kubeconfig`，但是 k3s 将相关配置保存在 `/var/lib/rancher/k3s/agent/etc/` 中，导致 cni 相关的配置（下面volume）会改动到此，所以需要修改 kubeconfig 路径到 `/var/lib/rancher/k3s/agent/etc/cni/net.d/multus.d/multus`.kubeconfig
+multus 默认读取 kubeconfig 的路径为 `/etc/cni/net.d/multus.d/multus.kubeconfig`，但是 k3s 将相关配置保存在 `/var/lib/rancher/k3s/agent/etc/` 中，导致 cni 相关的配置（下面volume）会改动到此，所以需要修改 kubeconfig 路径到 `/var/lib/rancher/k3s/agent/etc/cni/net.d/multus.d/multus.kubeconfig`
 
 3. volume
 
