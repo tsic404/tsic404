@@ -1,7 +1,7 @@
 baseURL: 'https://tsic.top/'
 languageCode: 'zh-CN'
 title: "Tsic's Blog"
-paginate: 5
+pagination.pagerSize: 5
 theme: "papermod"
 
 enableInlineShortcodes: true

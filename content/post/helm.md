@@ -2,6 +2,7 @@
 title: "Helm"
 date: 2023-09-26T15:41:41+08:00
 draft: true
+section: "post"
 ---
 # k3s 杂记
 
