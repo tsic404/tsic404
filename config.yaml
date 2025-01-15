@@ -79,7 +79,7 @@ params:
         - name: Telegram
           url: "https://t.me/tsic404"
         - name: Rss
-          url: "index.xml"
+          url: "post/index.xml"
   
     editPost:
         URL: "https://github.com/tsic404/blog/tree/master/content"
