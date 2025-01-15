@@ -6,6 +6,8 @@ tags: ["k8s","k3s"]
 categories: ['k8s-at-home']
 ---
 
+本文主要介绍使用load-watcher + scheduler-plugins + descheduler 配合实现k3s根据资源占用平衡调度。
+
 ## k3s 调度问题
 
 k8s 默认调度器不会更具节点的实际负载进行调度，只会根据request中申请的资源来。所以会导致多数的部署都是往一台比较强劲的节点上，或者新加入的节点不会有任何的pod分配过来。

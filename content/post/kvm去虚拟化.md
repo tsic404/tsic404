@@ -8,6 +8,8 @@ draft: false
 
 使用promox ve做aio，启动windows主机当游戏机时，遇到游戏的虚拟机检测。
 
+## 方法
+
 在[promox ve forum](https://forum.proxmox.com/threads/hide-vm-from-guest.34905/)中找到了隐藏虚拟机标识的配置。
 
 ```

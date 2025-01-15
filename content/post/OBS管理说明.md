@@ -7,6 +7,8 @@ categories: [ 'ci/cd' ]
 draft: true
 ---
 
+记录OBS的搭建过程。
+
 ## 结构说明
 
 OBS 实际搭建如图所示

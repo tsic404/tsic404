@@ -11,6 +11,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+summaryLength: 1
 minify:
     disableXML: true
 

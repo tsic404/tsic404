@@ -7,6 +7,8 @@ categories: [ '打包', 'ci/cd' ]
 draft: false
 ---
 
+介绍OBS的一些使用指南。
+
 ## OBS 介绍
 [open build service](https://openbuildservice.org/)简称OBS，是[openSUSE主导开发](https://github.com/openSUSE/open-build-service)的通用构建系统，用于从源码的自动构建和包分发。
 

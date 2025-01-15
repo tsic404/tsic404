@@ -6,6 +6,8 @@ tags: [ "cni", "k8s"]
 categories: ['k8s-at-home']
 ---
 
+介绍一下如何配置k3s的multus cni。
+
 # k3s with multus cni
 
 最近在家部署了一个k3s，用于管理一些家用服务比如jellyfin，homeassistant等，在使用homeassistant时，遇到一些网络问题，在了解k8s一点网络架构后，需要在k8s中安装multus cni，为pod创建额外网口来解决我的问题。

@@ -6,6 +6,8 @@ categories: ['k8s-at-home']
 draft: false
 ---
 
+使用tftp + nfssroot/iscsi 实现树莓派无盘启动。
+
 # 树莓派使用网络启动
 
 pi  通过 tftp 和 dhcp 拉取 boot 分区的内容。然后把拉取的 boot 分区中的 initramfs 加载到内存，通过 内核启动参数（nfsroot，iscsi）和iniramfs 完成网络启动过程。

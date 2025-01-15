@@ -6,6 +6,8 @@ categories: ["开发日志"]
 draft: false
 ---
 
+介绍如何使用wayland合成器实现UI插件分进程的实现。
+
 ## 背景
 
 1. 为什么要将插件分进程
