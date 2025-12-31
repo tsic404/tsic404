@@ -13,111 +13,114 @@ enableEmoji: true
 pygmentsUseClasses: true
 summaryLength: 1
 minify:
-    disableXML: true
+  disableXML: true
 
 taxonomies:
-    tag: "tags"
-    category: "categories"
-    series: "series"
+  tag: "tags"
+  category: "categories"
+  series: "series"
 
 menu:
-    main:
-        - name: 全部
-          url: post
-          weight: 5
-        - name: 标签
-          url: tags
-          weight: 10
-        - name: 搜索
-          url: search
-          weight: 15
+  main:
+  - name: 全部
+    url: post
+    weight: 5
+  - name: 归档
+    url: archives
+    weight: 10
+  - name: 标签
+    url: tags
+    weight: 15
+  - name: 搜索
+    url: search
+    weight: 20
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+  - HTML
+  - RSS
+  - JSON
 
 params:
-    env: production
-    description: "Tsic's Blog - https://tsic.top"
-    author: tsic404
-    defaultTheme: dark
-    ShowShareButtons: true
-    ShowReadingTime: true
+  env: production
+  description: "Tsic's Blog - https://tsic.top"
+  author: tsic404
+  defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
 
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    ShowFullTextinRSS: true
-    ShowToc: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
+  ShowToc: true
 
-    comments: true
+  comments: true
 
-    profileMode:
-        enabled: true
-        title: "Tsic's Blog"
-        subtitle: "Tsic's detial"
-        imageUrl: "https://avatars.githubusercontent.com/u/48748112?v=4"
-        imageTitle: "Tsic"
-        imageWidth: 120
-        imageHeight: 120
+  profileMode:
+    enabled: true
+    title: "Tsic's Blog"
+    subtitle: "Tsic's note"
+    imageUrl: "https://avatars.githubusercontent.com/u/48748112?v=4"
+    imageTitle: "Tsic"
+    imageWidth: 120
+    imageHeight: 120
 
-        buttons:
-            - name: 全部
-              url: post
-            - name: 标签
-              url: tags
-            - name: 分类
-              url: categories
-            - name: 系列
-              url: series
+    buttons:
+    - name: 全部
+      url: post
+    - name: 标签
+      url: tags
+    - name: 分类
+      url: categories
+    - name: 系列
+      url: series
 
-    socialIcons:
-        - name: github
-          url: "https://github.com/tsic404"
-        - name: Telegram
-          url: "https://t.me/tsic404"
-        - name: Rss
-          url: "post/index.xml"
-  
-    editPost:
-        URL: "https://github.com/tsic404/blog/tree/master/content"
-        Text: "编辑" # edit text
-        appendFilePath: true # to append file path to Edit link
+  socialIcons:
+  - name: github
+    url: "https://github.com/tsic404"
+  - name: Telegram
+    url: "https://t.me/tsic404"
+  - name: Rss
+    url: "post/index.xml"
 
-    assets:
-        disableHLJS: true
+  editPost:
+    URL: "https://github.com/tsic404/tsic404.github.io/tree/master/content"
+    Text: "编辑"
+    appendFilePath: true
+
+  assets:
+    disableHLJS: true
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        noClasses: false
+  goldmark:
+    renderer:
+        unsafe: true
+  highlight:
+    noClasses: false
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
 
-    instagram:
-        disabled: false
-        simple: true
+  instagram:
+    disabled: false
+    simple: true
 
-    youtube:
-        disabled: false
-        privacyEnhanced: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+      disableInlineCSS: true
+  twitter:
+      disableInlineCSS: true
